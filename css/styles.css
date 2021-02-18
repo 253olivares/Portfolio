@@ -92,6 +92,7 @@ nav a:hover {
   height: 100%;
   border-radius: 50%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
 }
 .content .home .name {
   width: 100%;
@@ -106,6 +107,15 @@ nav a:hover {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.content .home .information {
+  width: 90%;
+  margin: auto;
+}
+.content .home .information p {
+  font-size: 20px;
+  text-indent: 50px;
+  line-height: 30px;
 }
 
 footer {

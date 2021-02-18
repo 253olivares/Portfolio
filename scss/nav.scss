@@ -1,0 +1,30 @@
+nav{
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    background-color: #1a1a1a;
+    z-index: 1;
+    .NavigationLinks{
+        width: 1000px;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    a{   
+        height: 75px;
+        width: 15%;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        line-height: 75px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all .8s;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0);
+    }
+    a:hover{
+        height: 100px;
+        background-color: #404040;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
+  }

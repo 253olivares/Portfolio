@@ -66,6 +66,12 @@ nav a:hover {
   background-position: center;
   background-size: cover;
 }
+.content .DemoSlideShow h1 {
+  font-size: 15px;
+  background-color: white;
+  width: 500px;
+  display: none;
+}
 .content .home {
   z-index: 2;
   margin-top: -75px;
@@ -75,6 +81,28 @@ nav a:hover {
   background-color: white;
   min-height: 350px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+.content .home .imageOfMe {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+.content .home .imageOfMe img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+.content .home .name {
+  width: 100%;
+}
+.content .home .name h1 {
+  font-size: 45px;
+  text-align: center;
+}
+.content .home .name hr {
+  width: 50%;
+  margin: auto;
 }
 
 footer {

@@ -9,6 +9,7 @@ html, body {
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  background-color: #F9F9FA;
 }
 
 body::-webkit-scrollbar {
@@ -116,6 +117,30 @@ nav a:hover {
   font-size: 20px;
   text-indent: 50px;
   line-height: 30px;
+}
+
+.content .projects {
+  z-index: 2;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  min-height: calc(100vh - 150px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+.content .projects .name {
+  width: 100%;
+}
+.content .projects .name h1 {
+  font-size: 45px;
+  text-align: center;
+}
+.content .projects .name hr {
+  width: 50%;
+  margin: auto;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 footer {

@@ -81,8 +81,15 @@
                         float: right;
                         width: 285px;
                         height: 190px;
-                        background-color: salmon;
+                    }
+                    .project1{
                         background-image: url(../images/VueWebpage.JPG);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    .project2{
+                        background-image: url(../images/TicTac.JPG);
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;

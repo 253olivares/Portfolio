@@ -14,11 +14,65 @@
                 text-align: center;
             }
             hr{
-                width: 50%;
+                width:30%;
                 margin: auto;
                 border: 0;
                 height: 1px;
                 background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+            }
+        }
+        .demos{
+            width: 90%;
+            padding-top: 20px;
+            margin: auto;
+            // background-color: red  ;
+            min-height: 500px;
+            .showcase{
+                width: 800px;
+                height: 250px;
+                display: block;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 30px;
+                transition: all 0.5s ease-in-out;
+                background-color: rosybrown;
+                .overlay_overflow{
+                    position: relative;
+                    overflow: hidden;
+                    .overlay{
+                        position: absolute;
+                        width: 740px;
+                        height: 190px;
+                        left: 100%;
+                        background-color: #2c2a29;
+                        z-index: 1;
+                        opacity: 80%;
+                        transition: all 0.5s ease-in-out; 
+                    }
+                    .projInfo{
+                        float: left;
+                        width: 510px;
+                        height: 190px;
+                        background-color: royalblue;
+    
+                    }
+                    .projImg{
+                        float: right;
+                        width: 230px;
+                        height: 190px;
+                        background-color: salmon;
+                    }
+                }
+            }
+            .showcase:hover{
+                background-color: white;
+                transform: scale(1.15, 1.15);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            }
+            .showcase:hover .overlay{
+                left: 0;
             }
         }
     }

@@ -141,11 +141,63 @@ nav a:hover {
   text-align: center;
 }
 .content .projects .name hr {
-  width: 50%;
+  width: 30%;
   margin: auto;
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.content .projects .demos {
+  width: 90%;
+  padding-top: 20px;
+  margin: auto;
+  min-height: 500px;
+}
+.content .projects .demos .showcase {
+  width: 800px;
+  height: 250px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  transition: all 0.5s ease-in-out;
+  background-color: rosybrown;
+}
+.content .projects .demos .showcase .overlay_overflow {
+  position: relative;
+  overflow: hidden;
+}
+.content .projects .demos .showcase .overlay_overflow .overlay {
+  position: absolute;
+  width: 740px;
+  height: 190px;
+  left: 100%;
+  background-color: #2c2a29;
+  z-index: 1;
+  opacity: 80%;
+  transition: all 0.5s ease-in-out;
+}
+.content .projects .demos .showcase .overlay_overflow .projInfo {
+  float: left;
+  width: 510px;
+  height: 190px;
+  background-color: royalblue;
+}
+.content .projects .demos .showcase .overlay_overflow .projImg {
+  float: right;
+  width: 230px;
+  height: 190px;
+  background-color: salmon;
+}
+.content .projects .demos .showcase:hover {
+  background-color: white;
+  transform: scale(1.15, 1.15);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.content .projects .demos .showcase:hover .overlay {
+  left: 0;
 }
 
 footer {

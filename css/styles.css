@@ -76,7 +76,6 @@ nav a:hover {
   font-size: 15px;
   background-color: white;
   width: 500px;
-  display: none;
 }
 .content .home {
   z-index: 2;

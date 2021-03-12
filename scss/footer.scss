@@ -5,7 +5,8 @@ footer{
     height: 75px;
     background-color: #1a1a1a;
     .footerInfo{
-        width: 1000px;
+        width: 100%;
+        max-width: 1000px;
         margin: auto;
         display: flex;
         justify-content: flex-start;
@@ -18,5 +19,8 @@ footer{
         text-decoration: none;
         line-height: 75px;
         font-size: 15px;
+    }
+    h1:first-child{
+        margin-left: 20px;
     }
   }

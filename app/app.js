@@ -18,6 +18,8 @@ function showSlide() {
             // }, 1000);
         }
     }
+    //allows a little bit of time to pass between animations so that it looks better
+    setTimeout(750)
     //keep track of slide number
     slideNum++;
     //when it goes over the array reset

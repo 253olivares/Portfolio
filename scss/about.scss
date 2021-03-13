@@ -9,5 +9,100 @@
         background-color: white;
         min-height: calc(100vh - 150px);
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+        .pageName{
+            width: 100%;
+            h1{
+                font-size: 45px;
+                text-align: center;
+            }
+            hr{
+                width:500px;
+                margin: auto;
+                border: 0;
+                height: 1px;
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+            }
+            h3{
+                text-align: center;
+            }
+        }
+        .TalkBoutMe{
+                p{
+                    width: 90%;
+                    margin: 0 auto;
+                    text-indent: 50px;
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+            .GegraphicImage{
+                width: 80%;
+                margin-right: 5%;
+                padding: 10px;
+                margin: 0 auto;
+                img{
+                    width: 100%;
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .graphicWork{
+            width: 100%;
+            .gwHead{
+                margin-left: -20px;
+                width: 400px;
+                height: 75px;
+                color: white;
+                line-height: 75px;
+                background-color: #1a1a1a;
+                h1{
+                    margin-left: 70px;
+                }
+            }
+            .WorkShowcase{
+                width: 90%;
+                margin: 0 auto;
+                display: flex;
+                min-height: 300px;
+            }
+        }
+        .education{
+            width: 100%;
+            .eHead{
+                margin-left: -20px;
+                width: 400px;
+                height: 75px;
+                color: white;
+                line-height: 75px;
+                background-color: #1a1a1a;
+                h1{
+                    margin-left: 70px;
+                }
+            }
+            .EducationShowcase{
+                width: 90%;
+                margin: 0 auto;
+                min-height: 300px;
+            }
+        }
+        .mySkills{
+            width: 100%;
+            .SkillsHeader{
+                margin-left: -20px;
+                width: 400px;
+                height: 75px;
+                color: white;
+                line-height: 75px;
+                background-color: #1a1a1a;
+                h1{
+                    margin-left: 70px;
+                }
+            }
+            .SkillShowcase{
+                width: 90%;
+                margin: 0 auto;
+                min-height: 300px;
+            }
+        }
     }
 }

@@ -383,6 +383,21 @@ nav a:hover {
   width: 90%;
   margin: 0 auto;
   min-height: 300px;
+  margin-top: 30px;
+}
+.content .AboutMeInfo .education .college {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.content .AboutMeInfo .education .college p {
+  text-indent: 50px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.content .AboutMeInfo .education .college img {
+  width: 40%;
+  float: right;
 }
 .content .AboutMeInfo .mySkills {
   width: 100%;
@@ -402,6 +417,18 @@ nav a:hover {
   width: 90%;
   margin: 0 auto;
   min-height: 300px;
+}
+.content .AboutMeInfo .mySkills .ProgrammingList {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.content .AboutMeInfo .mySkills .ProgrammingList i {
+  font-size: 80px;
+}
+.content .AboutMeInfo .mySkills .ProgrammingList img {
+  width: 100px;
 }
 
 .content .ContactInformation {

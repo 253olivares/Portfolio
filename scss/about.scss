@@ -83,6 +83,21 @@
                 width: 90%;
                 margin: 0 auto;
                 min-height: 300px;
+                margin-top: 30px;
+            }
+            .college{
+                width: 100%;
+                margin: 0 auto;
+                position: relative;
+                p{
+                    text-indent: 50px;
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                img{
+                    width: 40%;
+                    float: right;
+                }
             }
         }
         .mySkills{
@@ -102,6 +117,18 @@
                 width: 90%;
                 margin: 0 auto;
                 min-height: 300px;
+            }
+            .ProgrammingList{
+                width: 75%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-around;
+                i{
+                    font-size: 80px;
+                }
+                img{
+                    width: 100px;
+                }
             }
         }
     }

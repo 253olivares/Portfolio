@@ -28,5 +28,5 @@ function showSlide() {
     slides[slideNum - 1].style.display = "block";
     TweenMax.to(slides[slideNum - 1], { duration: 1.25, opacity: 1 });
     //repeat the function every 5 seconds
-    setTimeout(showSlide, 6000)
+    setTimeout(showSlide, 5000)
 }

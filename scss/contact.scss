@@ -28,16 +28,17 @@
                 color: black;
             }
             #name{
-                width: 35%;
+                float: left;
+                width: 47%;
                 background-color: #F9F9FA;
             }
             #email{
-                margin-left: 5%;
-                width: 35%;
+                float: right;
+                width: 47%;
                 background-color: #F9F9FA;
             }
             #subject{
-                width: 75.5%;
+                width: 100%;
                 background-color: #F9F9FA;
             }
             #message{
